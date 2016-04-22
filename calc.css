@@ -1,0 +1,59 @@
+/*caracteristicas de formateo de el .css*/
+/*  Css Document */
+*{ margin:0; padding : 0; }
+
+p, ul, ol, dl{margin-bottom: 1em}
+
+a { text-decaration: none; border: 0px; }
+
+img{border: 0;  padding: 0; outline: 0; margin: 0;}
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+
+body{background-color: white;}
+
+#cabecera{position: absolute; height: 30%; width: 40%; top: 5%; left: 30%; text-align: center; font-size: 150%;}
+
+
+
+#calculadora{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    height: 60%;
+    border: 5% solid red;
+    background-color: pink;
+}
+
+span{
+    float: left;
+    width: 90%;
+    height: 30%;
+    border: 5% solid silver;
+    text-align: center;
+    font-size: 100%;
+
+}
+
+.operacion, #borrar, #igual{
+    float: left;
+    margin: 2% 6% 2% 6%;
+    width: 20%;
+    height: 25%;
+    
+}
+
+#pantalla{
+    float: left;
+    width: 100%;
+    height: 20%;
+    text-align: right;
+    margin-top: 2%;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 100%;
+}
